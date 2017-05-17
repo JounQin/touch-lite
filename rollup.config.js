@@ -9,7 +9,11 @@ const NODE_ENV = process.env.NODE_ENV || DEV
 
 const isDev = NODE_ENV === DEV
 
-const plugins = [buble()]
+const plugins = [buble({
+  transforms: {
+    dangerousForOf: true
+  }
+})]
 
 isDev || plugins.push(uglify({
   output: {
