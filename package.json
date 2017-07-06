@@ -1,8 +1,8 @@
 {
   "name": "touch-lite",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A lightweight touch library without any dependency.",
-  "main": "dist/touch.in.js",
+  "main": "dist/touch.min.js",
   "module": "lib/index.js",
   "unpkg": "dist/touch.js",
   "repository": "git@github.com:JounQin/touch-lite.git",
