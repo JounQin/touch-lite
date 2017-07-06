@@ -1,6 +1,6 @@
 {
   "name": "touch-lite",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A lightweight touch library without any dependency.",
   "main": "dist/touch.in.js",
   "module": "lib/index.js",
@@ -14,7 +14,7 @@
     "build": "cross-env NODE_ENV=production yarn base",
     "lint": "eslint lib/**/*.js",
     "lint:fix": "yarn lint -- --fix",
-    "deploy": "yarn base && yarn build && yarn lint:fix && npm publish"
+    "prepublish": "yarn base && yarn build && yarn lint:fix"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
