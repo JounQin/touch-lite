@@ -34,6 +34,8 @@ export default {
   dest: `dist/touch${isDev ? '' : '.min'}.js`,
   format: 'umd',
   moduleName: 'Touch',
-  moduleId: pkg.name,
+  amd: {
+    id: 'pkg.name'
+  },
   plugins
 }
