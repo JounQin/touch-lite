@@ -1,6 +1,6 @@
 {
   "name": "touch-lite",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A lightweight touch library without any dependency.",
   "main": "dist/touch.in.js",
   "module": "lib/index.js",

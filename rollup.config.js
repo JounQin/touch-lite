@@ -35,7 +35,7 @@ export default {
   format: 'umd',
   moduleName: 'Touch',
   amd: {
-    id: 'pkg.name'
+    id: pkg.name
   },
   plugins
 }
