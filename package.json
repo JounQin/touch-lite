@@ -17,7 +17,7 @@
     "deploy": "yarn base && yarn build && yarn lint:fix && npm publish"
   },
   "devDependencies": {
-    "babel-eslint": "^7.2.3",
+    "babel-eslint": "^10.0.2",
     "babel-preset-env": "^1.6.0",
     "babel-preset-stage-0": "^6.24.1",
     "cross-env": "^5.0.1",
